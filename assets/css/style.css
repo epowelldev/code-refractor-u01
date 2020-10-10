@@ -15,7 +15,7 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -50,6 +50,12 @@ p {
     font-size: 16px;
 }
 
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .img-splash {
     height: 800px;
     width: 100%;
@@ -69,13 +75,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
